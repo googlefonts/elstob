@@ -304155,7 +304155,6 @@ shapes = (
 ref = upsilon;
 },
 {
-anchor = top_centered;
 pos = (339,6);
 ref = dasiavaria;
 }
@@ -304169,7 +304168,6 @@ shapes = (
 ref = upsilon;
 },
 {
-anchor = top_centered;
 pos = (370,6);
 ref = dasiavaria;
 }
@@ -304183,7 +304181,6 @@ shapes = (
 ref = upsilon;
 },
 {
-anchor = top_centered;
 pos = (342,6);
 ref = dasiavaria;
 }
@@ -304197,7 +304194,6 @@ shapes = (
 ref = upsilon;
 },
 {
-anchor = top_centered;
 pos = (324,6);
 ref = dasiavaria;
 }
@@ -304211,7 +304207,6 @@ shapes = (
 ref = upsilon;
 },
 {
-anchor = top_centered;
 pos = (340,6);
 ref = dasiavaria;
 }
@@ -304225,7 +304220,6 @@ shapes = (
 ref = upsilon;
 },
 {
-anchor = top_centered;
 pos = (335,6);
 ref = dasiavaria;
 }
@@ -305865,7 +305859,6 @@ shapes = (
 ref = omega;
 },
 {
-anchor = top_center;
 pos = (399,6);
 ref = dasiavaria;
 }
@@ -305879,7 +305872,6 @@ shapes = (
 ref = omega;
 },
 {
-anchor = top_center;
 pos = (437,6);
 ref = dasiavaria;
 }
@@ -305893,7 +305885,6 @@ shapes = (
 ref = omega;
 },
 {
-anchor = top_center;
 pos = (402,6);
 ref = dasiavaria;
 }
@@ -305907,7 +305898,6 @@ shapes = (
 ref = omega;
 },
 {
-anchor = top_center;
 pos = (381,6);
 ref = dasiavaria;
 }
@@ -305921,7 +305911,6 @@ shapes = (
 ref = omega;
 },
 {
-anchor = top_center;
 pos = (393,6);
 ref = dasiavaria;
 }
@@ -305935,7 +305924,6 @@ shapes = (
 ref = omega;
 },
 {
-anchor = top_center;
 pos = (373,6);
 ref = dasiavaria;
 }

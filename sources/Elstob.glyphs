@@ -1,6 +1,13 @@
 {
 .appVersion = "3234";
 .formatVersion = 3;
+DisplayStrings = (
+"/psili.case",
+"ϊ",
+"ἊᾊἚἪᾚἺὊὪᾪ",
+"ιᾚ",
+"῟"
+);
 axes = (
 {
 name = Weight;
@@ -303927,7 +303934,7 @@ R = NoKerning;
 glyphname = upsilondasia;
 kernLeft = GK_upsilon;
 kernRight = GK_omicron;
-lastChange = "2024-11-22 02:05:29 +0000";
+lastChange = "2025-01-02 23:25:00 +0000";
 layers = (
 {
 layerId = "C5B93EC9-9EB6-4975-AE33-1741B73E6074";
@@ -303937,7 +303944,7 @@ ref = upsilon;
 },
 {
 pos = (444,6);
-ref = tonos;
+ref = dasia;
 }
 );
 width = 442;
@@ -303949,8 +303956,8 @@ shapes = (
 ref = upsilon;
 },
 {
-pos = (445,6);
-ref = tonos;
+pos = (441,6);
+ref = dasia;
 }
 );
 width = 425;
@@ -303962,8 +303969,8 @@ shapes = (
 ref = upsilon;
 },
 {
-pos = (449,6);
-ref = tonos;
+pos = (453,6);
+ref = dasia;
 }
 );
 width = 459;
@@ -303975,8 +303982,8 @@ shapes = (
 ref = upsilon;
 },
 {
-pos = (440,6);
-ref = tonos;
+pos = (435,6);
+ref = dasia;
 }
 );
 width = 453;
@@ -303988,8 +303995,8 @@ shapes = (
 ref = upsilon;
 },
 {
-pos = (440,6);
-ref = tonos;
+pos = (445,6);
+ref = dasia;
 }
 );
 width = 472;
@@ -304001,8 +304008,8 @@ shapes = (
 ref = upsilon;
 },
 {
-pos = (441,6);
-ref = tonos;
+pos = (440,6);
+ref = dasia;
 }
 );
 width = 442;
@@ -304015,7 +304022,7 @@ ref = upsilon;
 },
 {
 pos = (444,6);
-ref = tonos;
+ref = dasia;
 }
 );
 width = 442;
@@ -305637,7 +305644,7 @@ R = NoKerning;
 glyphname = omegadasia;
 kernLeft = GK_omicron;
 kernRight = GK_omicron;
-lastChange = "2024-12-06 17:34:33 +0000";
+lastChange = "2025-01-02 23:25:22 +0000";
 layers = (
 {
 layerId = "C5B93EC9-9EB6-4975-AE33-1741B73E6074";
@@ -305646,9 +305653,8 @@ shapes = (
 ref = omega;
 },
 {
-anchor = top_center;
 pos = (504,6);
-ref = tonos;
+ref = dasia;
 }
 );
 width = 590;
@@ -305660,9 +305666,8 @@ shapes = (
 ref = omega;
 },
 {
-anchor = top_center;
-pos = (512,6);
-ref = tonos;
+pos = (508,6);
+ref = dasia;
 }
 );
 width = 583;
@@ -305674,9 +305679,8 @@ shapes = (
 ref = omega;
 },
 {
-anchor = top_center;
-pos = (509,6);
-ref = tonos;
+pos = (513,6);
+ref = dasia;
 }
 );
 width = 607;
@@ -305688,9 +305692,8 @@ shapes = (
 ref = omega;
 },
 {
-anchor = top_center;
-pos = (497,6);
-ref = tonos;
+pos = (492,6);
+ref = dasia;
 }
 );
 width = 565;
@@ -305702,9 +305705,8 @@ shapes = (
 ref = omega;
 },
 {
-anchor = top_center;
-pos = (493,6);
-ref = tonos;
+pos = (498,6);
+ref = dasia;
 }
 );
 width = 607;
@@ -305716,9 +305718,8 @@ shapes = (
 ref = omega;
 },
 {
-anchor = top_center;
-pos = (479,6);
-ref = tonos;
+pos = (478,6);
+ref = dasia;
 }
 );
 width = 590;
@@ -305730,9 +305731,8 @@ shapes = (
 ref = omega;
 },
 {
-anchor = top_center;
 pos = (504,6);
-ref = tonos;
+ref = dasia;
 }
 );
 width = 590;
@@ -481841,7 +481841,7 @@ R = NoKerning;
 },
 {
 glyphname = psili;
-lastChange = "2024-11-16 20:22:44 +0000";
+lastChange = "2025-01-02 21:29:41 +0000";
 layers = (
 {
 anchors = (
@@ -481857,30 +481857,8 @@ pos = (-234,712);
 background = {
 shapes = (
 {
-closed = 1;
-nodes = (
-(-207,540,o),
-(-167,586,o),
-(-167,639,cs),
-(-167,687,o),
-(-198,723,o),
-(-245,723,cs),
-(-274,723,o),
-(-294,708,o),
-(-294,682,cs),
-(-294,663,o),
-(-284,647,o),
-(-263,638,cs),
-(-235,626,o),
-(-229,617,o),
-(-229,603,cs),
-(-229,573,o),
-(-254,550,o),
-(-303,517,cs),
-(-312,511,o),
-(-299,494,o),
-(-290,499,cs)
-);
+pos = (-350,50);
+ref = quoteright;
 }
 );
 };
@@ -486133,7 +486111,7 @@ R = NoKerning;
 },
 {
 glyphname = dasiaperispomeni;
-lastChange = "2024-11-17 00:11:17 +0000";
+lastChange = "2025-01-03 01:09:40 +0000";
 layers = (
 {
 anchors = (
@@ -486144,6 +486122,11 @@ pos = (-209,435);
 {
 name = top;
 pos = (-229,836);
+}
+);
+guides = (
+{
+pos = (-148,521);
 }
 );
 layerId = "C5B93EC9-9EB6-4975-AE33-1741B73E6074";
